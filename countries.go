@@ -4992,7 +4992,7 @@ func ByName(name string) CountryCode { //nolint:misspell,gocyclo
 		return BLR
 	case "BZ", "BLZ", "BIZ", "BELIZE":
 		return BLZ
-	case "BE", "BEL", "BELGIUM", "BELGUM", "BELGIEN":
+	case "BE", "BEL", "BELGIUM", "BELGUM", "BELGIEN", "BELGIQUE":
 		return BEL
 	case "BJ", "BEN", "DHY", "BENIN", "DY", "DYBJ":
 		return BEN
@@ -5106,7 +5106,7 @@ func ByName(name string) CountryCode { //nolint:misspell,gocyclo
 		return IRL
 	case "IS", "ISL", "ICELAND", "ISLAND":
 		return ISL
-	case "ES", "EA", "IC", "ESP", "SPAIN", "SPANIEN", "ISPANIA":
+	case "ES", "EA", "IC", "ESP", "SPAIN", "SPANIEN", "ISPANIA", "ESPANA":
 		return ESP
 	case "IT", "ITA", "ITALY", "ITALIYA", "ITALIEN":
 		return ITA
@@ -5228,7 +5228,7 @@ func ByName(name string) CountryCode { //nolint:misspell,gocyclo
 		return NER
 	case "NG", "NGA", "NGR", "WAN", "NIGERIA", "NIGERIAN", "NIGGERIAN", "NIGERIYA", "NIGGERIA", "NIGGERIYA":
 		return NGA
-	case "NL", "NLD", "NED", "NETHERLANDS", "NETHERLAND", "HOLLAND", "HOLLANDIA", "HOLLANDIYA", "NIEDERLANDE", "HOLAND", "HOLANDIA", "HOLANDIYA":
+	case "NL", "NLD", "NED", "NETHERLANDS", "NEDERLAND", "NETHERLAND", "HOLLAND", "HOLLANDIA", "HOLLANDIYA", "NIEDERLANDE", "HOLAND", "HOLANDIA", "HOLANDIYA":
 		return NLD
 	case "NI", "NIC", "NICARAGUA":
 		return NIC
