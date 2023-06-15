@@ -5022,11 +5022,11 @@ func ByName(name string) CountryCode { //nolint:misspell,gocyclo
 		return VUT
 	case "VA", "VAT", "HOLYSEEVATICAN", "HOLYSEE", "VATICAN", "VATICANCITYSTATE", "VATICANSTATE", "HOLYSEEVATIKAN", "VATIKAN", "VATIKANCITYSTATE", "VATIKANSTATE", "HOLYSEEVATIKANCITYSTATE", "VATIKANSTADT", "VATICANCITY", "CITYVATICAN":
 		return VAT
-	case "GB", "DG", "GBR", "ADN", "DGA", "UNITEDKINGDOM", "UNITEDKINDOM", "UK", "GREATBRITAN", "GREATBRITAIN", "NORTHERNIRELAND", "BRITAN", "BRITAIN", "GROSSBRITANNIEN", "VEREINIGTESKÖNIGREICH", "VEREINIGTESKOENIGREICH": //nolint
+	case "GB", "DG", "GBR", "ADN", "DGA", "UNITEDKINGDOM", "UNITEDKINDOM", "UK", "GREATBRITAN", "GREATBRITAIN", "NORTHERNIRELAND", "BRITAN", "BRITAIN", "GROSSBRITANNIEN", "VEREINIGTESKÖNIGREICH", "VEREINIGTESKOENIGREICH": // nolint
 		return GBR
 	case "HU", "HUN", "HUNGARY", "HUNGAR", "HUNGARI", "VENGRIYA", "VENGRIA", "UNGARN":
 		return HUN
-	case "VE", "VEN", "VENEZUELA", "VENEZUELLA", "VENECUELA", "VENECUELLA", "YV", "BOLIVARIANREPUBLICOF", "BOLIVARIANREPUBLIC", "REPUBLICOFBOLIVARIAN", "REPUBLICBOLIVARIAN", "BOLIVARIAN": //nolint
+	case "VE", "VEN", "VENEZUELA", "VENEZUELLA", "VENECUELA", "VENECUELLA", "YV", "BOLIVARIANREPUBLICOF", "BOLIVARIANREPUBLIC", "REPUBLICOFBOLIVARIAN", "REPUBLICBOLIVARIAN", "BOLIVARIAN": // nolint
 		return VEN
 	case "VG", "VGB", "IVB", "VIRGINISLANDSBRITISH", "VIRGINISLANDSBRITIH", "VIRGINISLSBRITIH", "VIRGINISLSBRITISH", "VIRGINISLANDSGB", "VIRGINISLANDSUK", "BRITISCHEJUNGFERNINSELN", "BRITISHVIRGINISLANDS":
 		return VGB
@@ -5172,7 +5172,7 @@ func ByName(name string) CountryCode { //nolint:misspell,gocyclo
 		return LIE
 	case "LU", "LUX", "LUXEMBOURG", "LUXEMBURG":
 		return LUX
-	case "MU", "MUS", "MAURITIUS":
+	case "MU", "MUS", "MAURITIUS", "MAURICE":
 		return MUS
 	case "MR", "MRT", "MAURITANIA", "MAURETANIEN":
 		return MRT
@@ -5320,7 +5320,7 @@ func ByName(name string) CountryCode { //nolint:misspell,gocyclo
 		return KNA
 	case "LC", "LCA", "SAINTLUCIA", "STLUCIA", "LUCIA", "WL":
 		return LCA
-	case "SG", "SGP", "SINGAPORE", "SINGPAORE", "SINGAPORECITY", "SINGAPOUR", "SINGAPURA", "SINGAPUR": //nolint
+	case "SG", "SGP", "SINGAPORE", "SINGPAORE", "SINGAPORECITY", "SINGAPOUR", "SINGAPURA", "SINGAPUR": // nolint
 		return SGP
 	case "SY", "SYR", "SYRIA", "SYRIAN", "SYRIANARABREPUBLIC", "SYRIEN":
 		return SYR
@@ -5368,7 +5368,7 @@ func ByName(name string) CountryCode { //nolint:misspell,gocyclo
 		return UGA
 	case "UZ", "UZB", "UZBEKISTAN", "UZBEKISTON":
 		return UZB
-	case "UA", "UKR", "UKRAINE", "UKRAINA": //nolint
+	case "UA", "UKR", "UKRAINE", "UKRAINA": // nolint
 		return UKR
 	case "UY", "URY", "URUGUAY", "URUGWAY":
 		return URY
@@ -5378,7 +5378,7 @@ func ByName(name string) CountryCode { //nolint:misspell,gocyclo
 		return FRO
 	case "FJ", "FJI", "FIJI", "FIDSCHI":
 		return FJI
-	case "PH", "PHL", "PHI", "PHILIPPINES", "PHILIPINES", "PI", "RP", "PHILIPPINEN": //nolint
+	case "PH", "PHL", "PHI", "PHILIPPINES", "PHILIPINES", "PI", "RP", "PHILIPPINEN": // nolint
 		return PHL
 	case "FI", "SF", "FIN", "FINLAND", "FINNISH", "FINNLAND":
 		return FIN
