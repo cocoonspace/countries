@@ -4972,7 +4972,7 @@ func ByName(name string) CountryCode { //nolint:misspell,gocyclo
 		return ANT
 	case "AE", "ARE", "UAE", "UNITEDARABEMIRATES", "ARABEMIRATES", "UNITEDEMIRATES", "VEREINIGTEARABISCHEEMIRATE":
 		return ARE
-	case "AR", "ARG", "ARGENTINA", "ARGENTIN", "RA", "ARGENTINIEN":
+	case "AR", "ARG", "ARGENTINA", "ARGENTIN", "RA", "ARGENTINIEN", "ARGENTINE":
 		return ARG
 	case "AM", "ARM", "ARMENIA", "ARMENIYA", "ARMENIAN", "ARMENIEN":
 		return ARM
